@@ -24,10 +24,9 @@
 		<surefire.version>2.17</surefire.version>
 		<jacoco.version>0.7.9</jacoco.version>
 
-		<sonar.projectKey>devops_keshav01</sonar.projectKey>
-  		<sonar.organization>devops_keshav01</sonar.organization>
+		<sonar.projectKey>devops_20200322_1</sonar.projectKey>
         <sonar.host.url>http://13.58.52.193:9000</sonar.host.url>
-	    <sonar.login>058ce9cd51b690ede8c9f5b24172f1570175f6e7</sonar.login>
+	    <sonar.login>df6084c9238b487ce71556ad0561fc05282ae629</sonar.login>
 	</properties>
 	
 
