@@ -23,7 +23,13 @@
 		<java.version>1.8</java.version>
 		<surefire.version>2.17</surefire.version>
 		<jacoco.version>0.7.9</jacoco.version>
+
+		<sonar.projectKey>devops_keshav01</sonar.projectKey>
+  		<sonar.organization>evops_keshav01</sonar.organization>
+        <sonar.host.url>http://13.58.52.193:9000</sonar.host.url>
+	    <sonar.login>058ce9cd51b690ede8c9f5b24172f1570175f6e7</sonar.login>
 	</properties>
+	
 
 	<distributionManagement>
 		<repository>
