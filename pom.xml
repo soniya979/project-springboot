@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>devops</artifactId>
-	<version>1.1.0-SNAPSHOT</version>
+	<artifactId>cloudbinary</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>devops</name>
-	<description>DevOps Demo Project</description>
+	<name>cloudbinary</name>
+	<description>DevOps Demo Project - cloudbinary</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -24,9 +24,9 @@
 		<surefire.version>2.17</surefire.version>
 		<jacoco.version>0.7.9</jacoco.version>
 
-		<sonar.projectKey>devops_20200322_1</sonar.projectKey>
-        <sonar.host.url>http://13.58.52.193:9000</sonar.host.url>
-	    <sonar.login>df6084c9238b487ce71556ad0561fc05282ae629</sonar.login>
+		<sonar.projectKey>cloudbinary_devops_01</sonar.projectKey>
+        <sonar.host.url>http://18.216.180.47:9000</sonar.host.url>
+	    <sonar.login>52462e10d7d05f186b25a447d2b8ed6fb4b9f3e0</sonar.login>
 	</properties>
 	
 
@@ -34,12 +34,12 @@
 		<repository>
 			<id>central</id>
 			<name>releases</name>
-			<url>http://3.21.206.76:8081/artifactory/libs-release-local/</url>
+			<url>http://18.216.87.141:8081/artifactory/libs-release-local/</url>
 		</repository>
 		<snapshotRepository>
 			<id>snapshot</id>
 			<name>snapshots</name>
-			<url>http://3.21.206.76:8081/artifactory/libs-snapshot-local/</url>
+			<url>http://18.216.87.141:8081/artifactory/libs-snapshot-local</url>
 		</snapshotRepository>
 	</distributionManagement>
 
