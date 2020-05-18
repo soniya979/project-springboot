@@ -30,18 +30,6 @@
 	    <sonar.login>5ec2075722f856cda1b657f57d236f5c398c91f2</sonar.login>
 	</properties>
 	
-	<distributionManagement>
-		<repository>
-			<id>central</id>
-			<name>releases</name>
-			<url>http://3.222.192.76/artifactory/libs-release-local</url>
-		</repository>
-		<snapshotRepository>
-			<id>snapshot</id>
-			<name>snapshots</name>
-			<url>http://3.222.192.76/artifactory/libs-snapshot-local</url>
-		</snapshotRepository>
-    </distributionManagement>
 
 	<scm>
 		<connection>scm:git:git@gitlab.com:cloudbinary/cb_java_code.git</connection>
