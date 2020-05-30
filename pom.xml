@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>cloudbinary</artifactId>
-	<version>1.0.0-Release</version>
+	<artifactId>kesav</artifactId>
+	<version>1.0.0-Snapshot</version>
 	<packaging>war</packaging>
 
-	<name>cloudbinary</name>
-	<description>DevOps Demo Project - cloudbinary</description>
+	<name>kesav</name>
+	<description>DevOps Demo Project - kesav</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -24,12 +24,17 @@
 		<surefire.version>2.17</surefire.version>
 		<jacoco.version>0.7.9</jacoco.version>
 		
-		<sonar.projectKey>awsdevops</sonar.projectKey>
+
+	</properties>
+	
+
+<!--
+			<sonar.projectKey>awsdevops</sonar.projectKey>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.organization>gitlab-awsdevops</sonar.organization>
 	    <sonar.login>5ec2075722f856cda1b657f57d236f5c398c91f2</sonar.login>
-	</properties>
 	
+ 
 	<distributionManagement>
 		<repository>
 			<id>central</id>
@@ -43,7 +48,7 @@
 		</snapshotRepository>
     </distributionManagement>
 	
-
+-->
 	<scm>
 		<connection>scm:git:git@gitlab.com:cloudbinary/cb_java_code.git</connection>
 		<developerConnection>scm:git:git@ggitlab.com:cloudbinary/cb_java_code.git</developerConnection>
