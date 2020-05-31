@@ -24,17 +24,16 @@
 		<surefire.version>2.17</surefire.version>
 		<jacoco.version>0.7.9</jacoco.version>
 		
-
-	</properties>
-	
-
-<!--
-			<sonar.projectKey>awsdevops</sonar.projectKey>
+		<sonar.projectKey>awsdevops</sonar.projectKey>
         <sonar.host.url>https://sonarcloud.io</sonar.host.url>
         <sonar.organization>gitlab-awsdevops</sonar.organization>
 	    <sonar.login>5ec2075722f856cda1b657f57d236f5c398c91f2</sonar.login>
 	
---> 
+	</properties>
+	
+
+		
+
 	<distributionManagement>
 		<repository>
 			<id>central</id>
