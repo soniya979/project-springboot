@@ -1,7 +1,7 @@
 node {
    def mvnHome
    stage('Prepare') {
-      git url: 'git@gitlab.com:cloudbinary/cb_java_code.git', branch: 'master'
+      git url: 'https://gitlab.com/cloudbinary/cb_java_code.git', branch: 'master'
       mvnHome = tool 'maven'
    }
    stage('Compile') {
