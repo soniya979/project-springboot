@@ -1,7 +1,7 @@
 node {
    def mvnHome
    stage('Prepare') {
-      git url: 'git@gitlab.com:cloudbinary/cb_java_code.git', branch: 'master'
+      git url: 'https://gitlab.com:cloudbinary/cb_java_code.git', branch: 'master'
       mvnHome = tool 'maven'
    }
    stage('Compile') {
@@ -43,10 +43,5 @@ node {
          bat(/"${mvnHome}\bin\mvn" -Dmaven.test.failure.ignore clean deploy/)
       }
    }
-   stage('Deploy') {
-       sh 'curl -u admin:redhat@123 -T target/**.war "http://192.168.0.6:8080/manager/text/deploy?path=/devops&update=true"'
-   }
-   stage("Smoke Test"){
-       sh "curl --retry-delay 10 --retry 5 http://http://192.168.0.6:8080/devops"
-   } 
+   
 }
