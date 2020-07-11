@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>kesav</artifactId>
+	<artifactId>automationdevops</artifactId>
 	<version>1.0.0-Snapshot</version>
 	<packaging>war</packaging>
 
-	<name>kesav</name>
-	<description>DevOps Demo Project - kesav</description>
+	<name>automationdevops</name>
+	<description>DevOps Demo Project - automationdevops</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -24,16 +24,15 @@
 		<surefire.version>2.17</surefire.version>
 		<jacoco.version>0.7.9</jacoco.version>
 		
-		<sonar.projectKey>slearn1</sonar.projectKey>
-        <sonar.host.url>http://172.31.18.86:9000</sonar.host.url>
-        <sonar.organization>Slearn</sonar.organization>
-	    <sonar.login>84f54143e194c662308c484288f5c8e8c1f08b71</sonar.login>
+        <sonar.projectKey>devopsautomation20200711</sonar.projectKey>
+        <sonar.organization>devopsautomation</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.login>a369a68dd7ac59d159dca3641112d92cf6617a91</sonar.login>
 	
 	</properties>
 	
 
-		
-
+<!--		
 	<distributionManagement>
 		<repository>
 			<id>central</id>
@@ -47,7 +46,7 @@
 		</snapshotRepository>
     </distributionManagement>
 	
-
+-->
 	<scm>
 		<connection>scm:git:git@gitlab.com:cloudbinary/cb_java_code.git</connection>
 		<developerConnection>scm:git:git@ggitlab.com:cloudbinary/cb_java_code.git</developerConnection>
