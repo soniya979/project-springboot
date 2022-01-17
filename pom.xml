@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>automationdevops</artifactId>
+	<artifactId>softobiz</artifactId>
 	<version>1.0.0-Snapshot</version>
 	<packaging>war</packaging>
 
-	<name>automationdevops</name>
-	<description>DevOps Demo Project - automationdevops</description>
+	<name>softobiz</name>
+	<description>DevOps Demo Project - softobiz</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
