@@ -20,14 +20,15 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 		<surefire.version>2.17</surefire.version>
 		<jacoco.version>0.7.9</jacoco.version>
 		
-        <sonar.projectKey>devopsautomation20200711</sonar.projectKey>
-        <sonar.organization>devopsautomation</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.login>a369a68dd7ac59d159dca3641112d92cf6617a91</sonar.login>
+		<!-- SonarQube Integration -->
+        <sonar.projectKey>softobiz_javaproject</sonar.projectKey>
+        <sonar.organization>softobiz_javaproject</sonar.organization>
+        <sonar.host.url>http://3.110.186.242:9000</sonar.host.url>
+        <sonar.login>6fb5c29d7296a12b6d9ee3aa099aa8fe0a93842c</sonar.login>
 	
 	</properties>
 	
