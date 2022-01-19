@@ -49,15 +49,16 @@
 	-->
 		
 	<distributionManagement>
-    	<!-- <repository>
-        	<id>central</id>
-        	<name>jfrog.softobiz.com-releases</name>
-        	<url>http://localhost:8082/artifactory/softobiz-snapshots</url>
-    	</repository> -->
+    	<repository>
+        	<id>softobiz-snapshots</id>
+        	<name>softobiz-snapshots</name>
+        	<url>http://15.206.123.225:8082/artifactory/softobiz-snapshots/</url>
+    	</repository>
     	<snapshotRepository>
         	<id>softobiz-snapshots</id>
         	<name>softobiz-snapshots</name>
         	<url>http://15.206.123.225:8082/artifactory/softobiz-snapshots/</url>
+			<layout>default</layout>
     	</snapshotRepository>
 	</distributionManagement>
 
