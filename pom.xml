@@ -32,14 +32,15 @@
 	
 	</properties>
 
-	<!-- Jfrog Integration -->
-		
-	<distributionManagement>
-		<repository>
+	<!-- Jfrog Integration 
+			<repository>
 			<id>central</id>
 			<name>releases</name>
 			<url>http://15.206.123.225:8081/artifactory/softobiz-snapshots/</url>
 		</repository>
+	-->
+		
+	<distributionManagement>
 		<snapshotRepository>
 			<id>softobiz-snapshots</id>
 			<name>softobiz-snapshots</name>
