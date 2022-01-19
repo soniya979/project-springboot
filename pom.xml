@@ -38,12 +38,12 @@
 		<repository>
 			<id>central</id>
 			<name>releases</name>
-			<url>http://15.206.123.225:8082/artifactory/softobiz-snapshots/</url>
+			<url>http://15.206.123.225:8081/artifactory/softobiz-snapshots/</url>
 		</repository>
 		<snapshotRepository>
 			<id>softobiz-snapshots</id>
 			<name>softobiz-snapshots</name>
-			<url>http://15.206.123.225:8082/artifactory/softobiz-snapshots/</url>
+			<url>http://15.206.123.225:8081/artifactory/softobiz-snapshots/</url>
 		</snapshotRepository>
     </distributionManagement>
 	
