@@ -31,16 +31,9 @@
         <sonar.login>6fb5c29d7296a12b6d9ee3aa099aa8fe0a93842c</sonar.login>
 	
 	</properties>
-			<!-- Jfrog Integration -->
-	<distributionManagement>
-		<snapshotRepository>
-			<id>softobiz-snapshots</id>
-			<name>softobiz-snapshots</name>
-			<url>http://15.206.123.225:8082/artifactory/softobiz-snapshots/</url>
-		</snapshotRepository>
-    </distributionManagement>
 
-<!--		
+	<!-- Jfrog Integration -->
+		
 	<distributionManagement>
 		<repository>
 			<id>central</id>
@@ -48,13 +41,13 @@
 			<url>http://172.31.18.86:8081/artifactory/libs-release-local</url>
 		</repository>
 		<snapshotRepository>
-			<id>snapshot</id>
-			<name>snapshots</name>
-			<url>http://172.31.18.86:8081/artifactory/libs-snapshot-local</url>
+			<id>softobiz-snapshots</id>
+			<name>softobiz-snapshots</name>
+			<url>http://15.206.123.225:8082/artifactory/softobiz-snapshots/</url>
 		</snapshotRepository>
     </distributionManagement>
 	
--->
+
 	<scm>
 		<connection>scm:git:git@gitlab.com:cloudbinary/cb_java_code.git</connection>
 		<developerConnection>scm:git:git@ggitlab.com:cloudbinary/cb_java_code.git</developerConnection>
