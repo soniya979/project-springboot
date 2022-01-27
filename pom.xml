@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>softobiz</artifactId>
-	<version>1.0.0-Snapshot</version>
+	<artifactId>efdevops</artifactId>
+	<version>6.0.0-Snapshot</version>
 	<packaging>war</packaging>
 
-	<name>softobiz</name>
-	<description>DevOps Demo Project - softobiz</description>
+	<name>efdevops</name>
+	<description>DevOps Demo Project - efdevops</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -46,7 +46,7 @@
 			<url>http://15.206.123.225:8081/artifactory/softobiz-snapshots/</url>
 		</snapshotRepository>
     </distributionManagement>
-	-->
+
 		
 	<distributionManagement>
     	<repository>
@@ -62,7 +62,7 @@
     	</snapshotRepository>
 	</distributionManagement>
 
-
+	-->
 	<scm>
 		<connection>scm:git:git@gitlab.com:cloudbinary/cb_java_code.git</connection>
 		<developerConnection>scm:git:git@ggitlab.com:cloudbinary/cb_java_code.git</developerConnection>
