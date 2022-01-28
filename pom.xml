@@ -50,9 +50,9 @@
 	-->		
 	<distributionManagement>
     	<repository>
-        	<id>efdevops-lib-release</id>
-        	<name>efdevops-lib-release</name>
-        	<url>http://52.53.171.20:8081/artifactory/efdevops-lib-release/</url>
+        	<id>efdevops-lib-snapshots</id>
+        	<name>efdevops-lib-snapshots</name>
+        	<url>http://52.53.171.20:8081/artifactory/efdevops-lib-snapshots/</url>
     	</repository>
     	<snapshotRepository>
         	<id>efdevops-lib-snapshots</id>
