@@ -4,7 +4,7 @@
 
 	<groupId>com.example</groupId>
 	<artifactId>efdevops</artifactId>
-	<version>6.0.0-Snapshot</version>
+	<version>1.0.0-Snapshot</version>
 	<packaging>war</packaging>
 
 	<name>efdevops</name>
@@ -47,22 +47,22 @@
 		</snapshotRepository>
     </distributionManagement>
 
-		
+	-->		
 	<distributionManagement>
     	<repository>
-        	<id>softobiz-snapshots</id>
-        	<name>softobiz-snapshots</name>
-        	<url>http://15.206.123.225:8082/artifactory/softobiz-snapshots/</url>
+        	<id>efdevops-lib-release</id>
+        	<name>efdevops-lib-release</name>
+        	<url>http://52.53.171.20:8082/artifactory/efdevops-lib-release/</url>
     	</repository>
     	<snapshotRepository>
-        	<id>softobiz-snapshots</id>
-        	<name>softobiz-snapshots</name>
-        	<url>http://15.206.123.225:8082/artifactory/softobiz-snapshots/</url>
+        	<id>efdevops-lib-snapshots</id>
+        	<name>efdevops-lib-snapshots</name>
+        	<url>http://52.53.171.20:8082/artifactory/efdevops-lib-snapshots/</url>
 			<layout>default</layout>
     	</snapshotRepository>
 	</distributionManagement>
 
-	-->
+
 	<scm>
 		<connection>scm:git:git@gitlab.com:cloudbinary/cb_java_code.git</connection>
 		<developerConnection>scm:git:git@ggitlab.com:cloudbinary/cb_java_code.git</developerConnection>
