@@ -25,10 +25,10 @@
 		<jacoco.version>0.7.9</jacoco.version>
 		
 		<!-- SonarQube Integration -->
-        <sonar.projectKey>softobiz_javaproject</sonar.projectKey>
-        <sonar.organization>softobiz_javaproject</sonar.organization>
-        <sonar.host.url>http://3.110.186.242:9000</sonar.host.url>
-        <sonar.login>6fb5c29d7296a12b6d9ee3aa099aa8fe0a93842c</sonar.login>
+        <sonar.projectKey>efdevops</sonar.projectKey>
+        <sonar.organization>efdevops</sonar.organization>
+        <sonar.host.url>http://54.215.186.13:9000</sonar.host.url>
+        <sonar.login>5fcd1e2dcbc02cea682c8e0902bf936605bcc16c</sonar.login>
 	
 	</properties>
 
