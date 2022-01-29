@@ -25,10 +25,10 @@
 		<jacoco.version>0.7.9</jacoco.version>
 		
 		<!-- SonarQube Integration -->
-        <sonar.projectKey>efdevops</sonar.projectKey>
-        <sonar.organization>efdevops</sonar.organization>
-        <sonar.host.url>http://54.215.186.13:9000</sonar.host.url>
-        <sonar.login>5fcd1e2dcbc02cea682c8e0902bf936605bcc16c</sonar.login>
+        <sonar.projectKey>staragile</sonar.projectKey>
+        <sonar.organization>staragile</sonar.organization>
+        <sonar.host.url>http://18.218.237.189:9000</sonar.host.url>
+        <sonar.login>d707358126f54c44e5ccb6d5dbef921d30210049</sonar.login>
 	
 	</properties>
 
