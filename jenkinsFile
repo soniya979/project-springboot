@@ -25,7 +25,7 @@ pipeline {
         stage('Stage-4 : Test') { 
             steps {
                 withMaven(maven : 'maven'){
-                    sh 'mvn test'
+                    sh 'mvn test -DskipTests'
                 } 
             }
         }
