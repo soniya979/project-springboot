@@ -1,6 +1,13 @@
 pipeline {
     agent any 
     stages {
+        stage('Stage-0 : Static Code Quality'){
+            steps  {
+                withMaven(maven : 'maven'){
+                    sh 'mvn clean verify sonar:sonar -DskipTests'
+                }
+            }
+        } 
         stage('Stage-1 : Clean'){
             steps  {
                 withMaven(maven : 'maven'){
