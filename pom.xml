@@ -31,7 +31,7 @@
         <sonar.login>d707358126f54c44e5ccb6d5dbef921d30210049</sonar.login>
 	
 	</properties>
-
+<!--
 	<distributionManagement>
     	<repository>
         	<id>staragile-lib-release-local</id>
@@ -44,6 +44,22 @@
         	<url>http://3.144.30.104:8082/artifactory/staragile-lib-snapshot-local/</url>
     	</snapshotRepository>
 	</distributionManagement>
+-->
+
+<distributionManagement>
+    <repository>
+        <id>releases</id>
+        <name>jfrog.staragile.com-releases</name>
+        <url>http://3.144.30.104:8081/artifactory/staragile-lib-release-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>jfrog.staragile.com-snapshots</name>
+        <url>http://3.144.30.104:8081/artifactory/staragile-lib-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>
+
+
 
 
 	<scm>
