@@ -50,12 +50,12 @@
     <repository>
         <id>snapshots</id>
         <name>jfrog.staragile.com-snapshots</name>
-        <url>http://3.144.30.104:8081/artifactory/staragile-lib-snapshot-local</url>
+        <url>http://3.138.37.186:8081/artifactory/staragile-lib-snapshot-local</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>jfrog.staragile.com-snapshots</name>
-        <url>http://3.144.30.104:8081/artifactory/staragile-lib-snapshot-local</url>
+        <url>http://3.138.37.186:8081/artifactory/staragile-lib-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
 
