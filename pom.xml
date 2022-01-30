@@ -48,9 +48,9 @@
 
 <distributionManagement>
     <repository>
-        <id>release</id>
-        <name>jfrog.staragile.com-releases</name>
-        <url>http://3.144.30.104:8081/artifactory/staragile-lib-release-local</url>
+        <id>snapshots</id>
+        <name>jfrog.staragile.com-snapshots</name>
+        <url>http://3.144.30.104:8081/artifactory/staragile-lib-snapshot-local</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
