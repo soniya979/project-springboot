@@ -32,21 +32,21 @@ pipeline {
         stage('Stage-5 : Install') { 
             steps {
                 withMaven(maven : 'maven'){
-                    sh 'mvn install'
+                    sh 'mvn install -DskipTests'
                 } 
             }
         }
         stage('Stage-6 : Verify') { 
             steps {
                 withMaven(maven : 'maven'){
-                    sh 'mvn verify'
+                    sh 'mvn verify -DskipTests'
                 } 
             }
         }
         stage('Stage-7 : Package') { 
             steps {
                 withMaven(maven : 'maven'){
-                    sh 'mvn package'
+                    sh 'mvn package -DskipTests'
                 } 
             }
         }/*
