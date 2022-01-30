@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>efdevops</artifactId>
+	<artifactId>staragile</artifactId>
 	<version>1.0.0-Snapshot</version>
 	<packaging>war</packaging>
 
-	<name>efdevops</name>
-	<description>DevOps Demo Project - efdevops</description>
+	<name>staragile</name>
+	<description>DevOps Demo Project - staragile DevOps Project</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -50,14 +50,14 @@
 	-->		
 	<distributionManagement>
     	<repository>
-        	<id>efdevops-lib-snapshots</id>
-        	<name>efdevops-lib-snapshots</name>
-        	<url>http://52.53.171.20:8081/artifactory/efdevops-lib-snapshots/</url>
+        	<id>staragile-lib-release-local</id>
+        	<name>staragile-lib-release-local</name>
+        	<url>http://3.144.30.104:8082/artifactory/staragile-lib-release-local/</url>
     	</repository>
     	<snapshotRepository>
-        	<id>efdevops-lib-snapshots</id>
-        	<name>efdevops-lib-snapshots</name>
-        	<url>http://52.53.171.20:8081/artifactory/efdevops-lib-snapshots/</url>
+        	<id>staragile-lib-snapshot-local</id>
+        	<name>staragile-lib-snapshot-local</name>
+        	<url>http://3.144.30.104:8082/artifactory/staragile-lib-snapshot-local/</url>
 			<layout>default</layout>
     	</snapshotRepository>
 	</distributionManagement>
