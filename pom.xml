@@ -32,22 +32,6 @@
 	
 	</properties>
 
-	<!-- Jfrog Integration 
-	<distributionManagement>
-		<snapshotRepository>
-			<repository>
-				<id>central</id>
-				<name>releases</name>
-				<url>http://15.206.123.225:8081/artifactory/softobiz-snapshots/</url>
-			</repository>
-			
-			<id>softobiz-snapshots</id>
-			<name>softobiz-snapshots</name>
-			<url>http://15.206.123.225:8081/artifactory/softobiz-snapshots/</url>
-		</snapshotRepository>
-    </distributionManagement>
-
-	-->		
 	<distributionManagement>
     	<repository>
         	<id>staragile-lib-release-local</id>
@@ -58,7 +42,6 @@
         	<id>staragile-lib-snapshot-local</id>
         	<name>staragile-lib-snapshot-local</name>
         	<url>http://3.144.30.104:8082/artifactory/staragile-lib-snapshot-local/</url>
-			<layout>default</layout>
     	</snapshotRepository>
 	</distributionManagement>
 
