@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>staragile</artifactId>
+	<artifactId>eficens</artifactId>
 	<version>3.1.0</version>
 	<packaging>war</packaging>
 
-	<name>staragile</name>
-	<description>DevOps Demo Project - staragile DevOps Project</description>
+	<name>eficens</name>
+	<description>DevOps Demo Project - eficens DevOps Project</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -31,20 +31,6 @@
         <sonar.login>d62c8bf45df00bfbcb76ce3cc101d496b8d137f1</sonar.login>
 	
 	</properties>
-<!--
-	<distributionManagement>
-    	<repository>
-        	<id>staragile-lib-release-local</id>
-        	<name>staragile-lib-release-local</name>
-        	<url>http://3.144.30.104:8082/artifactory/staragile-lib-release-local/</url>
-    	</repository>
-    	<snapshotRepository>
-        	<id>staragile-lib-snapshot-local</id>
-        	<name>staragile-lib-snapshot-local</name>
-        	<url>http://3.144.30.104:8082/artifactory/staragile-lib-snapshot-local/</url>
-    	</snapshotRepository>
-	</distributionManagement>
--->
 
 <distributionManagement>
     <repository>
@@ -58,9 +44,6 @@
         <url>http://3.138.37.186:8081/artifactory/staragile-lib-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
-
-
-
 
 	<scm>
 		<connection>scm:git:git@gitlab.com:cloudbinary/cb_java_code.git</connection>
