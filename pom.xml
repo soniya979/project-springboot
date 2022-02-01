@@ -35,14 +35,16 @@
 <distributionManagement>
     <repository>
         <id>snapshots</id>
-        <name>jfrog.staragile.com-snapshots</name>
-        <url>http://3.138.37.186:8081/artifactory/staragile-lib-snapshot-local</url>
+        <name>efdevops-lib-snapshots</name>
+        <url>http://54.183.250.198:8082/artifactory/efdevops-lib-snapshots/</url>
     </repository>
+	<!-- 
     <snapshotRepository>
         <id>snapshots</id>
         <name>jfrog.staragile.com-snapshots</name>
-        <url>http://3.138.37.186:8081/artifactory/staragile-lib-snapshot-local</url>
+        <url>http://54.183.250.198:8081/artifactory/staragile-lib-snapshot-local</url>
     </snapshotRepository>
+	-->
 </distributionManagement>
 
 	<scm>
