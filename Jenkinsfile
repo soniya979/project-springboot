@@ -2,41 +2,45 @@
 pipeline {
     agent any 
     stages {
-        stage('STEP-1 Static Code Analysis - SonarQube') { 
-            steps {
-                sh 'mvn clean verify sonar:sonar -DskipTests'
-            }
-        }
-        stage('STEP-2 Clean') { 
+       // stage('STEP-1 Static Code Analysis - SonarQube') { 
+       //     steps {
+       //         sh 'mvn clean verify sonar:sonar -DskipTests'
+       //     }
+       // }
+        stage('Clean') { 
             steps {
                 sh 'mvn clean'
             }
         }
-        stage('STEP-3 Validate') { 
+        stage('Validate') { 
             steps {
                 sh 'mvn validate'
             }
         }
-        stage('STEP-4 test') { 
+        stage('test') { 
             steps {
                 sh 'mvn test -DskipTests'
             }
         }
-        stage('STEP-5 install') { 
+        stage('install') { 
             steps {
                 sh 'mvn install -DskipTests'
             }
         }
-        stage('STEP-6 package') { 
+        stage('package') { 
             steps {
                 sh 'mvn package -DskipTests'
             }
         }
-        stage('STEP-7 deploy') { 
+        stage('Deployment - Deploy a Artifact eficens-1.0.0.war file to Tomcat Server'') { 
             steps {
-                sh 'mvn deploy -DskipTests'
+                sh 'curl -u admin:redhat@123 -T target/**.war "http://54.215.60.73:8080/manager/text/deploy?path=/eficens&update=true"'
             }
         }
-
+        stage('SmokeTest') { 
+            steps {
+                sh 'curl --retry-delay 10 --retry 5 "http://54.215.60.73:8080/eficens"'
+            }
+        }
     }
 }
