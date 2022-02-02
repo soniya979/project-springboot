@@ -32,7 +32,7 @@ pipeline {
                 sh 'mvn package -DskipTests'
             }
         }
-        stage('Deployment - Deploy a Artifact eficens-1.0.0.war file to Tomcat Server'') { 
+        stage('Deployment - Deploy a Artifact eficens-1.0.0.war file to Tomcat Server') { 
             steps {
                 sh 'curl -u admin:redhat@123 -T target/**.war "http://54.215.60.73:8080/manager/text/deploy?path=/eficens&update=true"'
             }
