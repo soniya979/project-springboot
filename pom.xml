@@ -25,10 +25,10 @@
 		<jacoco.version>0.7.9</jacoco.version>
 		
 		<!-- SonarQube Integration -->
-        <sonar.projectKey>staragile-devops</sonar.projectKey>
-        <sonar.organization>staragile-devops</sonar.organization>
-        <sonar.host.url>http://18.118.189.10:9000</sonar.host.url>
-        <sonar.login>d62c8bf45df00bfbcb76ce3cc101d496b8d137f1</sonar.login>
+        <sonar.projectKey>cloudbinaryproject1</sonar.projectKey>
+        <sonar.organization>cloudbinaryproject1</sonar.organization>
+        <sonar.host.url>http://65.0.3.26:9000</sonar.host.url>
+        <sonar.login>8cb40786d8d563c01b84abb030a16e88dc72a283</sonar.login>
 	
 	</properties>
 <!--
