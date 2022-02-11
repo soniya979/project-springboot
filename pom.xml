@@ -20,52 +20,38 @@
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<maven.compiler.source>1.8</maven.compiler.source>
+ 		<maven.compiler.target>1.8</maven.compiler.target>
 		<java.version>11</java.version>
 		<surefire.version>3.0.0-M5</surefire.version>
 		<jacoco.version>0.7.9</jacoco.version>
 		
-		<!-- SonarQube Integration -->
-        <sonar.projectKey>cloudbinaryproject1</sonar.projectKey>
-        <sonar.organization>cloudbinaryproject1</sonar.organization>
-        <sonar.host.url>http://65.0.3.26:9000</sonar.host.url>
-        <sonar.login>8cb40786d8d563c01b84abb030a16e88dc72a283</sonar.login>
-	
+		<!-- SonarQube Integration 
+        <sonar.projectKey>softobiz-devops</sonar.projectKey>
+        <sonar.organization>softobiz-devops</sonar.organization>
+        <sonar.host.url>http://18.118.189.10:9000</sonar.host.url>
+        <sonar.login>d62c8bf45df00bfbcb76ce3cc101d496b8d137f1</sonar.login>
+		-->
 	</properties>
-<!--
+
 	<distributionManagement>
-    	<repository>
-        	<id>staragile-lib-release-local</id>
-        	<name>staragile-lib-release-local</name>
-        	<url>http://3.144.30.104:8082/artifactory/staragile-lib-release-local/</url>
-    	</repository>
-    	<snapshotRepository>
-        	<id>staragile-lib-snapshot-local</id>
-        	<name>staragile-lib-snapshot-local</name>
-        	<url>http://3.144.30.104:8082/artifactory/staragile-lib-snapshot-local/</url>
-    	</snapshotRepository>
+		<repository>
+			<id>central</id>
+			<name>jfrog.cloudbinary.io-releases</name>
+			<url>http://65.2.9.109:8081/artifactory/cloudbinary-snapshot-lib</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshots</id>
+			<name>jfrog.cloudbinary.io-snapshots</name>
+			<url>http://65.2.9.109:8081/artifactory/cloudbinary-snapshot-lib</url>
+		</snapshotRepository>
 	</distributionManagement>
--->
-
-<distributionManagement>
-    <repository>
-        <id>snapshots</id>
-        <name>jfrog.staragile.com-snapshots</name>
-        <url>http://3.138.37.186:8081/artifactory/staragile-lib-snapshot-local</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>jfrog.staragile.com-snapshots</name>
-        <url>http://3.138.37.186:8081/artifactory/staragile-lib-snapshot-local</url>
-    </snapshotRepository>
-</distributionManagement>
-
-
 
 
 	<scm>
-		<connection>scm:git:git@gitlab.com:cloudbinary/cb_java_code.git</connection>
-		<developerConnection>scm:git:git@ggitlab.com:cloudbinary/cb_java_code.git</developerConnection>
-		<url>git@gitlab.com:cloudbinary/cb_java_code.git</url>
+		<connection>scm:git:git@github.com:kesavkummari/democicd.git</connection>
+		<developerConnection>scm:git:git@github.com:kesavkummari/democicd.git</developerConnection>
+		<url>git@github.com:kesavkummari/democicd.git</url>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -124,6 +110,14 @@
 			  <artifactId>maven-surefire-plugin</artifactId>
 			  <version>${surefire.version}</version><!--$NO-MVN-MAN-VER$-->
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+        	</plugin>
 			<plugin>
 			    <groupId>org.jacoco</groupId>
 			    <artifactId>jacoco-maven-plugin</artifactId>
