@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>eficens</artifactId>
-	<version>3.1.0</version>
+	<artifactId>visualpath</artifactId>
+	<version>1.0.0</version>
 	<packaging>war</packaging>
 
-	<name>eficens</name>
-	<description>DevOps Demo Project - eficens DevOps Project</description>
+	<name>visualpath</name>
+	<description>AWS DevOps Demo Project - visualpath DevOps Project</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -23,30 +23,8 @@
 		<java.version>11</java.version>
 		<surefire.version>3.0.0-M5</surefire.version>
 		<jacoco.version>0.7.9</jacoco.version>
-		
-		<!-- SonarQube Integration -->
-        <sonar.projectKey>eficens_devops1</sonar.projectKey>
-        <sonar.organization>eficens_devops1</sonar.organization>
-        <sonar.host.url>http://52.53.219.192:9000</sonar.host.url>
-        <sonar.login>7ea5111805e5b01cde4db17b8499ce6cece9914d</sonar.login>
-	
 	</properties>
-
-<distributionManagement>
-    <repository>
-        <id>snapshots</id>
-        <name>efdevops-lib-snapshots</name>
-        <url>http://54.183.250.198:8082/artifactory/efdevops-lib-snapshots/</url>
-    </repository>
-	<!-- 
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>jfrog.staragile.com-snapshots</name>
-        <url>http://54.183.250.198:8081/artifactory/staragile-lib-snapshot-local</url>
-    </snapshotRepository>
-	-->
-</distributionManagement>
-
+	
 	<scm>
 		<connection>scm:git:git@gitlab.com:cloudbinary/cb_java_code.git</connection>
 		<developerConnection>scm:git:git@ggitlab.com:cloudbinary/cb_java_code.git</developerConnection>
