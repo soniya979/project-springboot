@@ -32,6 +32,19 @@
 		<tag>HEAD</tag>
 	</scm>
 
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>jfrog.visualpath.in-releases</name>
+        <url>http://52.66.212.210:8081/artifactory/local-lib-snapshot</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>jfrog.visualpath.in-snapshots</name>
+        <url>http://52.66.212.210:8081/artifactory/local-lib-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
