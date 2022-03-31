@@ -1,20 +1,45 @@
 pipeline {
     agent any
 
+    tools {
+        maven 'maven'
+        jdk 'java'
+    }
+
     stages {
-        stage('Build') {
+        stage('Stage-1: Clean The Project') {
             steps {
-                echo 'Building..'
+                sh 'mvn clean'
             }
         }
-        stage('Test') {
+        stage('Stage-2 : Validate') {
             steps {
-                echo 'Testing..'
+                sh 'mvn validate'
             }
         }
-        stage('Deploy') {
+        stage('Stage-3 : Compile') {
             steps {
-                echo 'Deploying....'
+                sh 'mvn compile'
+            }
+        }
+        stage('Stage-4 : Test') { 
+            steps {
+                sh 'mvn test -DskipTests'
+            }
+        }
+        stage('Stage-5 : Install') { 
+            steps {
+                sh 'mvn install -DskipTests'
+            }
+        }
+        stage('Stage-6 : Verify') { 
+            steps {
+                sh 'mvn verify -DskipTests'
+            }
+        }
+        stage('Stage-7 : Package') { 
+            steps {
+                sh 'mvn package -DskipTests'
             }
         }
     }
