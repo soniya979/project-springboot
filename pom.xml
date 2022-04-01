@@ -36,12 +36,12 @@
     <repository>
         <id>central</id>
         <name>jfrog.visualpath.in-releases</name>
-        <url>http://52.66.212.210:8081/artifactory/local-lib-snapshot</url>
+        <url>http://13.233.204.58:8081/artifactory/local-lib-snapshot</url>
     </repository>
     <snapshotRepository>
         <id>snapshots</id>
         <name>jfrog.visualpath.in-snapshots</name>
-        <url>http://52.66.212.210:8081/artifactory/local-lib-snapshot</url>
+        <url>http://13.233.204.58:8081/artifactory/local-lib-snapshot</url>
     </snapshotRepository>
 </distributionManagement>
 
