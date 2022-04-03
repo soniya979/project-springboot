@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>visualpath</artifactId>
+	<artifactId>staragile</artifactId>
 	<version>1.0.0</version>
 	<packaging>war</packaging>
 
-	<name>visualpath</name>
-	<description>AWS DevOps Demo Project - visualpath DevOps Project</description>
+	<name>staragile</name>
+	<description>AWS DevOps Demo Project - staragile DevOps Project</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -32,18 +32,6 @@
 		<tag>HEAD</tag>
 	</scm>
 
-<distributionManagement>
-    <repository>
-        <id>central</id>
-        <name>jfrog.visualpath.in-releases</name>
-        <url>http://13.233.204.58:8081/artifactory/local-lib-snapshot</url>
-    </repository>
-    <snapshotRepository>
-        <id>snapshots</id>
-        <name>jfrog.visualpath.in-snapshots</name>
-        <url>http://13.233.204.58:8081/artifactory/local-lib-snapshot</url>
-    </snapshotRepository>
-</distributionManagement>
 
 	<dependencies>
 		<dependency>
