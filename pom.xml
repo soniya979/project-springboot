@@ -39,6 +39,20 @@
 		<tag>HEAD</tag>
 	</scm>
 
+<!-- Jfrog Integration -->
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>jfrog.staragile.com-releases</name>
+        <url>http://13.233.215.236:8081/artifactory/staragile-lib-snapshot</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>jfrog.staragile.com-snapshots</name>
+        <url>http://13.233.215.236:8081/artifactory/staragile-lib-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
+
 
 	<dependencies>
 		<dependency>
