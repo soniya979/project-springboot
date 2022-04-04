@@ -23,6 +23,12 @@
 		<java.version>11</java.version>
 		<surefire.version>3.0.0-M5</surefire.version>
 		<jacoco.version>0.7.9</jacoco.version>
+
+		<!-- SonarQube Integration -->
+        <sonar.projectKey>visualpath</sonar.projectKey>
+        <sonar.organization>visualpath</sonar.organization>
+        <sonar.host.url>http://13.127.90.61:9000</sonar.host.url>
+        <sonar.login>beca53e11e280b2f603265434c10c39385aba99a</sonar.login>
 	</properties>
 	
 	<scm>
