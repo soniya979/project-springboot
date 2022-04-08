@@ -3,12 +3,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.example</groupId>
-	<artifactId>visualpath</artifactId>
+	<artifactId>cloudbinary</artifactId>
 	<version>1.0.0</version>
 	<packaging>war</packaging>
 
-	<name>visualpath</name>
-	<description>AWS DevOps Demo Project - visualpath DevOps Project</description>
+	<name>cloudbinary</name>
+	<description>AWS DevOps Demo Project - Cloud Binary DevOps Project</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -25,8 +25,8 @@
 		<jacoco.version>0.7.9</jacoco.version>
 
 		<!-- SonarQube Integration -->
-        <sonar.projectKey>visualpath</sonar.projectKey>
-        <sonar.organization>visualpath</sonar.organization>
+        <sonar.projectKey>cloudbinary</sonar.projectKey>
+        <sonar.organization>cloudbinary</sonar.organization>
         <sonar.host.url>http://13.127.90.61:9000</sonar.host.url>
         <sonar.login>beca53e11e280b2f603265434c10c39385aba99a</sonar.login>
 	</properties>
